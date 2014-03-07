@@ -1,0 +1,21 @@
+{
+    "name": "midnight/table-module",
+    "description": "A Zend Framework 2 wrapper  for midnight/table",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "require": {
+        "midnight/table": "~0.1",
+        "zendframework/zend-view": "~2.2"
+    },
+    "authors": [
+        {
+            "name": "Rudolph Gottesheim",
+            "email": "r.gottesheim@loot.at"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Midnight\\TableModule\\": "src/"
+        }
+    }
+}
